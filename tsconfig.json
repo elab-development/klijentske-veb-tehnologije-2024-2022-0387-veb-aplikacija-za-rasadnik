@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@images/*": ["src/images/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts", 
+    "src/**/*.jpg", 
+    "src/**/*.png" 
+  ],
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
