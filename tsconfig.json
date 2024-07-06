@@ -1,15 +1,4 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@images/*": ["src/images/*"]
-    }
-  },
-  "include": [
-    "src/**/*.ts", 
-    "src/**/*.jpg", 
-    "src/**/*.png" 
-  ],
   "files": [],
   "references": [
     {
