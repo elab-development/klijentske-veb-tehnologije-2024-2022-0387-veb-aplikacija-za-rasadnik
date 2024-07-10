@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Title from '../components/Title';
+import ContactForm from '../components/Contact/ContactForm';
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div>
+      <Title text='CONTACT US' />
+      <ContactForm />
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

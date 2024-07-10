@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Title from '../components/Title';
+import Feed from '../components/Blog/Feed';
 
-const Blog = () => {
+const Blog: React.FC = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <>
+      <Title text='BLOG' />
+      <Feed />
+    </>
+  );
+};
 
-export default Blog
+export default Blog;
