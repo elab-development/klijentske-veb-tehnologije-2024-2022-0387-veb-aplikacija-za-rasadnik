@@ -1,6 +1,6 @@
 import React from 'react';
 import {PRODUCTS} from '../../Products';
-import {Product} from './Product';
+import Product from './Product';
 
 const Shop: React.FC = () => {
   return (
@@ -9,9 +9,9 @@ const Shop: React.FC = () => {
             <h1>PlantBloom Shop</h1>
         </div>
         <div className='products'>
-            {PRODUCTS.map((Product)=>
-            <Product data={product}/>
-        )}
+            {PRODUCTS.map((Product)=>(
+            <Product key={Product.id} data={Product} />
+        ))}
         </div>
     </div>
   );
