@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import image1 from '../../images/img-1.jpg';
 import image2 from '../../images/img-2.jpg';
 import image3 from '../../images/img-3.jpg';
@@ -60,3 +60,4 @@ const TeamMember: React.FC = () => {
 };
 
 export default TeamMember;
+ */
